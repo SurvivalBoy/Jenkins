@@ -1,0 +1,8 @@
+2019-08-08 13:53:08 INFO  ▶ Listen HTTP on :
+2019-08-08 13:54:10 INFO  ▶ Listen HTTP on :
+2019-08-08 14:12:55 INFO  ▶ Listen HTTP on :
+2019-08-08 14:13:59 INFO  ▶ Listen HTTP on :8081
+2019-08-08 14:15:01 INFO  ▶ Listen HTTP on :8081
+2019-08-08 14:15:04 EROR jenkins_demo/model/database.go:144 ▶ jenkins_demo/model.AddUser方法MYSQL错误          SQL语句设置失败=Error 1054: Unknown column 'mobile' in 'field list' INSERT INTO user(name,mobile,timestamp) values (?,?,?)=[[张三 1346169461 2019-08-08 14:15:04.3930676 +0800 CST m=+3.409998301]]
+2019-08-08 14:16:03 DEBG  ▶ 插入成功，ID          1=INSERT INTO user(name,mobile,timestamp) values (?,?,?)
+2019-08-08 14:17:28 INFO  ▶ Listen HTTP on :8081
