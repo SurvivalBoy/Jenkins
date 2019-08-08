@@ -9,7 +9,6 @@ import (
 // RedisDB Redis的DB对象
 var RedisDB *redis.Client
 
-// Init 初始化方法
 func Init() {
 	RedisDB = redis.NewClient(&redis.Options{
 		Addr:     viper.GetString("redis_host"),
