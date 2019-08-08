@@ -5,8 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"jenkins_demo/handler"
-
+	"github.com/Jenkins/handler"
 	"github.com/gin-gonic/gin"
 	"github.com/phjt-go/logger"
 	"github.com/spf13/viper"

@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/Jenkins/router"
+	"github.com/Jenkins/setting"
 	"github.com/phjt-go/logger"
-	"jenkins_demo/router"
-	"jenkins_demo/setting"
 )
 
 func main() {

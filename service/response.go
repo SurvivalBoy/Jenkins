@@ -1,8 +1,8 @@
 package service
 
 import (
+	"github.com/Jenkins/setting"
 	"github.com/gin-gonic/gin"
-	"jenkins_demo/setting"
 	"net/http"
 )
 

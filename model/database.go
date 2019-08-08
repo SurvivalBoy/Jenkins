@@ -6,8 +6,7 @@ import (
 	"runtime"
 	"sync"
 
-	"jenkins_demo/setting"
-
+	"github.com/Jenkins/setting"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/phjt-go/logger"
 )

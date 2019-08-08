@@ -2,8 +2,8 @@ package service
 
 import (
 	"fmt"
-	"jenkins_demo/model"
-	"jenkins_demo/setting"
+	"github.com/Jenkins/model"
+	"github.com/Jenkins/setting"
 )
 
 func AddUser(name, mobile string) error {

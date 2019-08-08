@@ -1,8 +1,8 @@
 package handler
 
 import (
+	. "github.com/Jenkins/service"
 	"github.com/gin-gonic/gin"
-	. "jenkins_demo/service"
 )
 
 // HandleAddUser

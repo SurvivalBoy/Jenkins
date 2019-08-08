@@ -1,8 +1,8 @@
 package model
 
 import (
+	"github.com/Jenkins/setting"
 	"github.com/phjt-go/logger"
-	"jenkins_demo/setting"
 	"time"
 )
 
