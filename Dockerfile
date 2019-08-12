@@ -10,7 +10,7 @@ RUN cd /go/src/github.com/Jenkins \
 FROM alpine
 
 ENV Jenkins=/go/src/github.com/Jenkins
-COPY --from=0  $Jenkins /usr/bin
+COPY --from=0  $Jenkins/Jenkins /usr/bin
 WORKDIR /data
 
-CMD ["jenkins"]
+CMD ["Jenkins"]
