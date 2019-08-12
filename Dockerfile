@@ -1,15 +1,15 @@
 FROM golang:1.11-alpine
 
-ENV Jenkins=/go/src/jenkins
+ENV Jenkins=/go/src/github.com/Jenkins
 
 COPY . $Jenkins/
 
-RUN cd /go/src/jenkins \
+RUN cd /go/src/github.com/Jenkins \
 && go build
 
 FROM alpine
 
-ENV Jenkins=/go/src/jenkins
+ENV Jenkins=/go/src/github.com/Jenkins
 COPY --from=0  $Jenkins /usr/bin
 WORKDIR /data
 
